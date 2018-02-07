@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Box {
+  background-color:lightgrey;
+  width:500px;
+  /* height:500px;
+  border:10px solid lightblue;
+  padding: 25px; */
+  /* margin: 25px; */
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.Overall {
+  text-align:center;
+}
+
+.Square1, .Square2, .Square3 {
+  background-color:lightblue;
+  width:50px;
+  height:50px;
+  border:2px solid black;
+  padding: 25px;
+  margin: 25px;
+ }
+
+ .Square4, .Square5, .Square6 {
+   background-color:lightpink;
+   width:50px;
+   height:50px;
+   border:2px solid black;
+   padding: 25px;
+   margin: 25px;
+
+  }
+
+  .Square7, .Square8, .Square9 {
+    background-color:lightgreen;
+    width:50px;
+    height:50px;
+    border:2px solid black;
+    padding: 25px;
+    margin: 25px;
+
+   }
+
+   .Wrap {
+     padding-left:150px;
+     padding-bottom:500px;
+   }
+/* table {
+  background-color:white;
+  border:1px solid black;
+  width:50%;
+  height:50%;
+  border-collapse: collapse;
+}
+
+td, tr {
+  background-color:white;
+  border:1px solid black;
+  width:50%;
+  height:50%;
+  border-collapse: collapse;
+} */
